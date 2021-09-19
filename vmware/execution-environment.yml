@@ -6,3 +6,4 @@ dependencies:
 additional_build_steps:
   prepend: |
     RUN pip3 install --upgrade PyVmomi
+    RUN dnf install -y python2
